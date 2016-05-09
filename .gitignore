@@ -36,3 +36,6 @@ js/tests/performance/
 
 # Compiled Python files
 *.pyc
+
+# VS solution files
+*.suo
