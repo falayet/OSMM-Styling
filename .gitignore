@@ -39,3 +39,5 @@ js/tests/performance/
 
 # VS solution files
 *.suo
+*.pyproj
+*.sln
