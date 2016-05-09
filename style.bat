@@ -1,0 +1,1 @@
+style.py -i "C:\Data\Style\style.gdb" -t "style_"
