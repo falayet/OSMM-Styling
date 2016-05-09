@@ -14,4 +14,12 @@ The style tool takes 3 parameters:
 - The table prefix used when loading the data
 - The tool mode. This will be either "Add Style" to add and creatw the required styles or "Remove Columns" to delete any style columns already added.
 
+The python scripts can also be run using the batch file included in the repository. 
 
+## Issues
+
+Find a bug or want to request a new feature?  Please let us know by submitting an issue.
+
+## Contributing
+
+Anyone and everyone is welcome to contribute.
