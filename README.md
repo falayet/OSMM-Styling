@@ -1,4 +1,4 @@
-OSMM-Styling
+OSMM Topography Layer Styling
 ============
 
 ## About
