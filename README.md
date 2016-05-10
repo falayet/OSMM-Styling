@@ -16,7 +16,7 @@ The style tool takes 3 parameters:
 
 - The geodatabase containing the data
 - The table prefix used when loading the data
-- The tool mode. This will be either "Add Style" to add and creatw the required styles or "Remove Columns" to delete any style columns already added.
+- The tool mode. This will be either "Add Style" to add and create the required styles or "Remove Columns" to delete any style columns already added.
 
 The python scripts can also be run using the batch file included in the repository. 
 
