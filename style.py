@@ -9,16 +9,16 @@
 #-------------------------------------------------------------------------------
 import arcpy
 import os
-import line_style
-import area_style
-import sym_style
-import bnd_style
-import pnt_style
-import txt_style
+import StyleScripts.area_style
+import StyleScripts.line_style
+import StyleScripts.sym_style
+import StyleScripts.bnd_style
+import StyleScripts.pnt_style
+import StyleScripts.txt_style
 import sys
 import getopt
 import logging
-import utils
+import StyleScripts.utils
 
 from arcpy import env
 

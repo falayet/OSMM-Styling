@@ -1,1 +1,1 @@
-style.py -i "C:\Data\Style\style.gdb" -t "style_"
+style.py -i "C:\Data\Style\style.gdb" -t "style_" -m "add"

@@ -41,3 +41,4 @@ js/tests/performance/
 *.suo
 *.pyproj
 *.sln
+*.user
