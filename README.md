@@ -6,7 +6,7 @@ This style tool can be run against your OS MasterMap Topography data to create a
 
 ## Quickstart
 
-A toolbox is included in this repository and can be used to run the tool. Download the repository zip file and extract it to disk. 
+A toolbox is included in this repository and can be used to run the tool. Download the repository zip file and extract it to disk. Then add the toolbox to the ArcTollbox list so it can be run.  
 
 The style tool takes 3 parameters:
 
