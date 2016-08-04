@@ -10,7 +10,7 @@ When running a COU on the data you will need to remove these columns so they do 
 
 ## Quickstart
 
-A toolbox is included in this repository and can be used to run the tool. Download the repository zip file and extract it to disk. Then add the toolbox to the ArcTollbox list so it can be run.  
+A toolbox is included in this repository and can be used to run the tool. Download the repository zip file and extract it to disk. Then add the toolbox to the ArcToolbox list so it can be run. (If you are using a version of ArcGIS for Desktop older than 10.3 then please use the OSMMStyle101 toolbox.)
 
 The style tool takes 3 parameters:
 
