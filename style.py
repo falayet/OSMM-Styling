@@ -9,16 +9,16 @@
 #-------------------------------------------------------------------------------
 import arcpy
 import os
-import StyleScripts.area_style
-import StyleScripts.line_style
-import StyleScripts.sym_style
-import StyleScripts.bnd_style
-import StyleScripts.pnt_style
-import StyleScripts.txt_style
+import StyleScripts.area_style as area_style
+import StyleScripts.line_style as line_style
+import StyleScripts.sym_style as line_style
+import StyleScripts.bnd_style as bnd_style
+import StyleScripts.pnt_style as pnt_style
+import StyleScripts.txt_style as txt_style
 import sys
 import getopt
 import logging
-import StyleScripts.utils
+import StyleScripts.utils as utils
 
 from arcpy import env
 
@@ -113,7 +113,7 @@ def main():
 
     if toolMode.lower() == "rem":
         RemoveStyle(tablePrefix, logger)
-    elif toolMode.lower(tablePrefix, logger) == "add":
+    elif toolMode.lower() == "add":
         AddStyles(tablePrefix, logger)
     
 #-------------------------------------------------------------------------------
