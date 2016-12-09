@@ -76,21 +76,21 @@ def CalculateStyleCode(row):
 
 
     # Descriptive group rules
-    elif (descGroup is not None and descGroup.find("General Feature") and physicalPres <> "Edge / Limit"):
+    elif (descGroup is not None and descGroup.find("General Feature") > -1 and physicalPres <> "Edge / Limit"):
         returnVal = 23
-    elif (descGroup is not None and descGroup.find("Building") and descTerm == "Outline" and physicalPres == "Obstructing"):
+    elif (descGroup is not None and descGroup.find("Building") > -1 and descTerm == "Outline" and physicalPres == "Obstructing"):
         returnVal = 24
-    elif (descGroup is not None and descGroup.find("General Feature") and physicalPres == "Edge / Limit"):
+    elif (descGroup is not None and descGroup.find("General Feature") > -1 and physicalPres == "Edge / Limit"):
         returnVal = 25
     elif (descGroup == "Road Or Track"):
         returnVal = 26
-    elif (descGroup is not None and descGroup.find("Building") and descTerm == "Division" and physicalPres == "Obstructing"):
+    elif (descGroup is not None and descGroup.find("Building") > -1 and descTerm == "Division" and physicalPres == "Obstructing"):
         returnVal = 27
     elif (descGroup == "Inland Water"):
         returnVal = 28
-    elif (descGroup is not None and descGroup.find("General Surface") and make == "Natural"):
+    elif (descGroup is not None and descGroup.find("General Surface") > -1 and make == "Natural"):
         returnVal = 29
-    elif (descGroup is not None and descGroup.find("Building") and descTerm == "Outline" and physicalPres == "Overhead"):
+    elif (descGroup is not None and descGroup.find("Building") > -1 and descTerm == "Outline" and physicalPres == "Overhead"):
         returnVal = 30
     elif (descGroup == "Landform" and make == "Natural"):
         returnVal = 31
@@ -167,21 +167,21 @@ def CalculateStyleDescription(row):
     elif (descTerm == "Normal Tidal Limit"):
         returnVal = "Normal Tidal Limit Line"
     # Descriptive group rules
-    elif (descGroup is not None and descGroup.find("General Feature") and physicalPres <> "Edge / Limit"):
+    elif (descGroup is not None and descGroup.find("General Feature") > -1 and physicalPres <> "Edge / Limit"):
         returnVal = "Default Line"
-    elif (descGroup is not None and descGroup.find("Building") and descTerm == "Outline" and physicalPres == "Obstructing"):
+    elif (descGroup is not None and descGroup.find("Building") > -1 and descTerm == "Outline" and physicalPres == "Obstructing"):
         returnVal = "Building Outline Line"
-    elif (descGroup is not None and descGroup.find("General Feature") and physicalPres == "Edge / Limit"):
+    elif (descGroup is not None and descGroup.find("General Feature") > -1 and physicalPres == "Edge / Limit"):
         returnVal = "Edge Line"
     elif (descGroup == "Road Or Track"):
         returnVal = "Road Or Track Line"
-    elif (descGroup is not None and descGroup.find("Building") and descTerm == "Division" and physicalPres == "Obstructing"):
+    elif (descGroup is not None and descGroup.find("Building") > -1 and descTerm == "Division" and physicalPres == "Obstructing"):
         returnVal = "Building Division Line"
     elif (descGroup == "Inland Water"):
         returnVal = "Inland Water Line"
-    elif (descGroup is not None and descGroup.find("General Surface") and make == "Natural"):
+    elif (descGroup is not None and descGroup.find("General Surface") > -1 and make == "Natural"):
         returnVal = "General Surface Natural Line"
-    elif (descGroup is not None and descGroup.find("Building") and descTerm == "Outline" and physicalPres == "Overhead"):
+    elif (descGroup is not None and descGroup.find("Building") > -1 and descTerm == "Outline" and physicalPres == "Overhead"):
         returnVal = "Building Overhead Line"
     elif (descGroup == "Landform" and make == "Natural"):
         returnVal = "Landform Natural Line"
