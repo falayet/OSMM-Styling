@@ -34,19 +34,19 @@ def CalculateStyleCode(row):
         returnVal = 1
     elif (descTerm == "Emergency Telephone"):
         returnVal = 2
-    elif (descTerm.find("Site Of Heritage")):
+    elif (descTerm.find("Site Of Heritage") > -1):
         returnVal = 3
-    elif (descTerm.find("Culvert")):
+    elif (descTerm.find("Culvert") > -1):
         returnVal = 4
     elif (descTerm == "Positioned Nonconiferous Tree"):
         returnVal = 5
-    elif (descGroup.find("Inland Water")):
+    elif (descGroup.find("Inland Water") > -1):
         returnVal = 6
-    elif (descGroup.find("Roadside")):
+    elif (descGroup.find("Roadside") > -1):
         returnVal = 7
-    elif (descTerm.find("Overhead Construction")):
+    elif (descTerm.find("Overhead Construction") > -1):
         returnVal = 8
-    elif (descGroup.find("Rail")):
+    elif (descGroup.find("Rail") > -1):
         returnVal = 9
     elif (descTerm == "Positioned Coniferous Tree"):
         returnVal = 10
@@ -58,9 +58,9 @@ def CalculateStyleCode(row):
         returnVal = 13
     elif (descGroup == "Landform"):
         returnVal = 14
-    elif (descGroup.find("Tidal Water")):
+    elif (descGroup.find("Tidal Water") > -1):
         returnVal = 15
-    elif (descGroup.find("Structure")):
+    elif (descGroup.find("Structure") > -1):
         returnVal = 16
     else:
         returnVal = 99
@@ -88,19 +88,19 @@ def CalculateStyleDescription(row):
         returnVal = "Spot Height Point"
     elif (descTerm == "Emergency Telephone"):
         returnVal = "Emergency Telephone Point"
-    elif (descTerm.find("Site Of Heritage")):
+    elif (descTerm.find("Site Of Heritage") > -1):
         returnVal = "Site Of Heritage Point"
-    elif (descTerm.find("Culvert")):
+    elif (descTerm.find("Culvert") > -1):
         returnVal = "Culvert Point"
     elif (descTerm == "Positioned Nonconiferous Tree"):
         returnVal = "Positioned Nonconiferous Tree Point"
-    elif (descGroup.find("Inland Water")):
+    elif (descGroup.find("Inland Water") > -1):
         returnVal = "Inland Water Point"
-    elif (descGroup.find("Roadside")):
+    elif (descGroup.find("Roadside") > -1):
         returnVal = "Roadside Point"
-    elif (descTerm.find("Overhead Construction")):
+    elif (descTerm.find("Overhead Construction") > -1):
         returnVal = "Overhead Construction Point"
-    elif (descGroup.find("Rail")):
+    elif (descGroup.find("Rail") > -1):
         returnVal = "Rail Point"
     elif (descTerm == "Positioned Coniferous Tree"):
         returnVal = "Positioned Coniferous Tree Point"
@@ -112,9 +112,9 @@ def CalculateStyleDescription(row):
         returnVal = "Historic Point"
     elif (descGroup == "Landform"):
         returnVal = "Landform Point"
-    elif (descGroup.find("Tidal Water")):
+    elif (descGroup.find("Tidal Water") > -1):
         returnVal = "Tidal Water Point"
-    elif (descGroup.find("Structure")):
+    elif (descGroup.find("Structure") > -1):
         returnVal = "Structure Point"
     else:
         returnVal = "Unclassified"
