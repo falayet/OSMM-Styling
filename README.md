@@ -2,7 +2,7 @@ OSMM Topography Layer Styling
 ============
 
 ## About
-This style tool can be run against your OS MasterMap Topography data to create and calculate the fields and values for applying the correct styles.
+This style tool can be run against your OS MasterMap Topography data to create and calculate the fields and values for applying the correct styles. The data needs to have been loaded using Esri UK's ProductivitySuite software to work as it relies on the data schema created by that tool.
 
 Once you have run the tool there will be two new columns in your data which can be used in conjunction with the layer files supplied by the Ordance Survey in their [GitHub Repository](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/tree/master/Schema%20version%209/Stylesheets/ESRI%20stylesheets%20(LYR)).
 
