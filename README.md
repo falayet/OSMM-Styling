@@ -1,5 +1,8 @@
 OSMM Topography Layer Styling
 ============
+##Update
+This tool was created for use with data loaded using the ProductivitySuite software. ProductivitySuite is due for retiement at the end of the year and the new UK Data Loader from Esri UK will automatically add these fields to the data when loading it.
+
 
 ## About
 This style tool can be run against your OS MasterMap Topography data to create and calculate the fields and values for applying the correct styles. The data needs to have been loaded using Esri UK's ProductivitySuite software to work as it relies on the data schema created by that tool.
